@@ -1,0 +1,7 @@
+ignoreMouseEventsShortcut: "CommandOrControl+Shift+X"
+quitShortcut: "CommandOrControl+Shift+Q"
+overlay:
+  font: "monospace"
+  color: "white"
+  size: "larger"
+  text: "[%time%] CPU:%cpu%/RAM:%ram%/GPU:%gpu%"

@@ -1,0 +1,37 @@
+{
+  "name": "overlite",
+  "productName": "overlite",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": ".vite/build/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\"",
+    "build": "electron-forge make --targets @electron-forge/maker-zip"
+  },
+  "keywords": [],
+  "author": {
+    "name": "HerozDotExe",
+    "email": "herozdotexe@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.1",
+    "@electron-forge/maker-deb": "^6.1.1",
+    "@electron-forge/maker-rpm": "^6.1.1",
+    "@electron-forge/maker-squirrel": "^6.1.1",
+    "@electron-forge/maker-zip": "^6.1.1",
+    "@electron-forge/plugin-vite": "^6.1.1",
+    "electron": "24.2.0"
+  },
+  "dependencies": {
+    "electron-debug": "^3.2.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "eslint": "^8.40.0",
+    "systeminformation": "^5.17.12",
+    "yaml": "^2.2.2"
+  }
+}
